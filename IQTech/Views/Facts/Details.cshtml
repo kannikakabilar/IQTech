@@ -1,0 +1,32 @@
+@model IQTech.Models.Fact
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1 style="font-size: 80px"style="font-size: 80px">Details</h1>
+
+<div>
+    <h4>IQTech Post</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            IQ Question
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IqQuestion)
+        </dd>
+        <dt class = "col-sm-2">
+            IQ Answer
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IqAnswer)
+        </dd>
+    </dl>
+</div>
+</br></br>
+<div>
+    <button style="padding: 15px 32px; cursor: pointer; background-color: #ffffff; border-radius: 12px;">
+        <a style="color: darkblue;" asp-action="Edit" asp-route-id="@Model?.Id">Edit</a></button> |
+    <button style="padding: 15px 32px; cursor: pointer; background-color: #ffffff; border-radius: 12px;"><a style="color: darkblue;" asp-action="Index">Back to List</a></button>
+</div>

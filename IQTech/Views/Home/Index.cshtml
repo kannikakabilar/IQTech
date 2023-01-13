@@ -1,0 +1,28 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 style="font-size: 100px">Welcome to IQTech</h1>
+    </br></br></br>
+    <h3>The key to acheiving higher levels of intelligence is by learning the smaller details.</h3>
+    </br></br></br>
+    <h5>Increase your knowledge in Computer Sciences and Technology by checking out the Trending IQTech posts</h5>
+    </br>
+    <div>
+
+        @if (SignInManager.IsSignedIn(User))
+        {
+            <button style="padding: 15px 32px; cursor: pointer; background-color: #ffffff; border-radius: 12px;"><a style="font-size: 26px; color: darkblue; " asp-area="" asp-controller="Facts" asp-action="Index">Start Learning</a></button>
+        }
+        else
+        {
+            <button style="padding: 15px 32px; cursor: pointer; background-color: #ffffff; border-radius: 12px;"><a style="font-size: 26px; color: darkblue; " asp-area="Identity" asp-page="/Account/Login">Join Now!</a></button>
+        }
+    </div>
+
+</div>
+
