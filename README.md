@@ -50,6 +50,10 @@ In mac only, if apple doubts of malicious software execute following:
 ```
 System Preference> Security&Privacy> Click Allow button under allowed apps downloaded => then run again and click open in the pop-up
 <br /><br />
+If address is already in use, you can just kill which ever process is using the port with below command, and run again
+```md
+> lsof -ti:PortNumberGoesHere | xargs kill -9
+```
 The terminal will provide a local host link (ie: http://localhost:5237/), copy and paste it in your browser and enjoy exploring IQTech web app.
 <br /><br />
 
