@@ -35,7 +35,7 @@ Users can also search using key words to find IQTech posts relating to the topic
 
 # How to run
 - Download and install .NET SDK (https://dotnet.microsoft.com/download) <br />
-(However, this project was coded using Visual Studio -not Visual Studio Code)
+(*Note: this project was coded using Visual Studio -not Visual Studio Code)
 ```md
 > dotnet --version
 ```
@@ -51,4 +51,17 @@ In mac only, if apple doubts of malicious software execute following:
 System Preference> Security&Privacy> Click Allow button under allowed apps downloaded => then run again and click open in the pop-up
 <br /><br />
 The terminal will provide a local host link (ie: http://localhost:5237/), copy and paste it in your browser and enjoy exploring IQTech web app.
+<br /><br />
 
+# Concepts Learned
+This web app was developed with guidance from Shad Sluiter, a professor from Grand Canyon University in 
+Phoenix, Arizona: https://www.youtube.com/watch?v=BfEjDD8mWYg
+<br /><br />
+Following are the concepts that I've learned while working on this project:
+- Use the MVC (Model View Controller) design pattern.
+- Configure database tables using the Entity framework.
+- Setup of classes as models. Customize Razor forms.
+- Create methods inside a controller.
+- Style an ASP.NET page with CSS.
+- Use Bootstrap classes.
+- Create a search function to filter database results.
