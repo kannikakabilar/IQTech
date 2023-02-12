@@ -1,7 +1,7 @@
 # IQTech
 IQTech is a web app that allows users to post short insights on software and technology and share their knowledge with other users. The app is built using ASP.NET core in C# and it implements the Model-View-Controller (MVC) design pattern and stores user and their posts info as records in SQL server database.
 <br /><br />
-I designed IQTech to provide a medium where general knowledge on computer science can be shared and learned among software engineers. Sometimes we don't know what we don't know. The IQTech web application allows users to share tips and tricks that would help developers improve their knowledge and their quality of work when working on bigger projects. It is my contention that learning smaller details allows us to exhibit perfection and achive greater accomplishments.
+I designed IQTech to provide a platform where general knowledge on computer science can be shared and learned among software engineers. Sometimes we don't know what we don't know. The IQTech web application allows users to share tips and tricks that would help developers improve their knowledge and their quality of work when working on bigger projects. It is my contention that learning smaller details allows us to exhibit perfection and achive greater accomplishments.
 
 ![Quote](https://github.com/kannikakabilar/IQTech/blob/main/screenshots/Screen%20Shot%202023-01-12%20at%2010.27.51%20PM.png)
 ![Quote](https://github.com/kannikakabilar/IQTech/blob/main/screenshots/Screen%20Shot%202023-01-12%20at%2010.28.04%20PM.png)
