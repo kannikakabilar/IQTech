@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using IQTech.Data;
 
@@ -40,5 +40,7 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
 
-app.Run();
+// Configure the URLs to listen on
+builder.WebHost.UseUrls("http://0.0.0.0:5237");
 
+app.Run();
